@@ -32,7 +32,8 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
-        .mahim{
+
+        .mahim {
             color: #131318f2;
         }
     </style>
@@ -94,7 +95,7 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="">
+        <div class="mb-48">
             <!-- carousel-1 -->
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -128,7 +129,7 @@
                 </div>
             </div>
         </div>
-        <hr class="mt-24 mb-9">
+        <hr class="mt-64 md:mt-24 mb-9">
     </header>
     <main class="container mx-auto p-3">
         <!-- Professional Hockeys Club section -->
@@ -140,7 +141,7 @@
         <hr class="mt-9 mb-9">
         <!-- pie charts section -->
         <section class="">
-            <div class="flex justify-around">
+            <div class="flex flex-col md:flex-row justify-around">
                 <!-- chart-1 -->
                 <div class="flex flex-col items-center space-y-5">
                     <div class="w-32 h-32 relative">
@@ -189,23 +190,214 @@
             </div>
             <hr class="mt-9 mb-9">
             <div class="flex flex-col gap-6">
-                <div class="flex">
-                    <div class="w-[570px] h-[338px] border-2 border-blue-600 rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/2.png)] bg-no-repeat">
-                        
+                <!-- first row -->
+                <div class="flex flex-col lg:flex-row gap-6">
+                    <div
+                        class="w-full lg:w-1/2 h-[16rem] lg:h-[28rem] rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/2.png)] bg-no-repeat bg-cover flex flex-col justify-end">
+                        <div class="p-4 lg:p-10">
+                            <h3 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-6 text-white">Junior Program</h3>
+                            <p class="text-xs md:text-base  font-medium max-w-[490px] mb-2 lg:mb-6 text-white">Lorem
+                                ipsum, dolor sit amet
+                                consectetur
+                                adipisicing
+                                elit.
+                                Quisquam perferendis, earum, odio aut voluptatem ad voluptates ratione totam, ab modi
+                                necessitatibus nesciunt sunt aliquid possimus.</p>
+                            <button class="btn bg-pri-color border-none text-white font-bold text-xl">Register
+                                Now!</button>
+                        </div>
                     </div>
-                    <div class="w-1/2"><img class="w-full" src="Imges/2.png" alt=""></div>
+                    <div
+                        class="w-full lg:w-1/2 h-[16rem] lg:h-[28rem] rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/3.png)] bg-no-repeat bg-cover flex flex-col justify-end">
+                        <div class="p-4 lg:p-10">
+                            <h3 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-6 text-white">Teenager Program</h3>
+                            <p class="text-xs md:text-base  font-medium max-w-[490px] mb-2 lg:mb-6 text-white">Dolor sit
+                                amet consectetur. Ut
+                                urna
+                                diam quis
+                                sagittis.
+                                Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <button class="btn bg-pri-color border-none text-white font-bold text-xl">Register
+                                Now!</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-full">
-                    <img class="w-full" src="Images/4.png" alt="">
+                <!-- 2nd row -->
+                <div class="">
+                    <div
+                        class="w-full h-[16rem] lg:h-[37.5rem] rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/4.png)] bg-no-repeat bg-cover flex flex-col justify-end">
+                        <div class="p-4 lg:p-10">
+                            <h3 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-6 text-white">Professional Program
+                            </h3>
+                            <p class="text-xs md:text-base  font-medium max-w-[490px] mb-2 lg:mb-6 text-white">Lorem,
+                                ipsum dolor sit amet
+                                consectetur adipisicing elit. Voluptates natus ad voluptate ducimus omnis aut
+                                perspiciatis, rem similique autem dolores dignissimos numquam iste quibusdam
+                                perferendis..</p>
+                            <button class="btn bg-pri-color border-none text-white font-bold text-xl">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="mt-24 mb-9">
+        <!-- Our New Products section? -->
+        <section>
+            <div class="max-w-xl mx-auto text-center">
+                <h3 class="text-4xl font-extrabold mb-6">Program Sections</h3>
+                <p class="font-semibold text-[#13131899]">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis sapiente facilis eveniet, architecto nam ab harum laboriosam maxime rem. Animi?</p>
+            </div>
+            <hr class="mt-9 mb-9">
+            <!-- cards -->
+            <div class="grid grid-cols-3 gap-6">
+                <!-- product card-1 -->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/5.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-2 -->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/6.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card- 3-->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/7.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-4 -->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/8.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-5 -->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/9.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product card-6-->
+                <div class="card card-side bg-base-100 shadow-xl border-2 border-solid">
+                    <figure class="p-6"><img src="Images/10.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-3">
+                            <div class="flex gap-1"><img src="Images/icons/Frame-1.png" alt=""><span>5.0</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-2.png" alt=""><span>20</span></div>
+                            <div class="flex gap-1"><img src="Images/icons/Frame-3.png" alt=""><span>200</span></div>
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        <div class="">
+                            <h3 class="text-xl font-extrabold text-pri-color">Price - $22.00</h3>
+                            <div class="flex gap-1">
+                                <img src="Images/icons/Frame.png" alt=""><span>Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <hr class="mt-9 mb-9">
-        <!-- draft -->
     </main>
-    <footer>
-
-    </footer>
+    <!-- <footer>
+        <div class="grid grid-cols-2">
+            <div class="h-[28.125rem] rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/3.png)] bg-no-repeat bg-cover">
+                <h3 class="text-2xl font-extrabold mb-6 text-white">Teenager Program</h3>
+                <p class="text-xs md:text-base  font-medium max-w-[490px] mb-6 text-white">Dolor sit amet consectetur. Ut urna
+                    diam quis
+                    sagittis.
+                    Elit elit
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                    congue sed et in.</p>
+                <button class="btn bg-pri-color border-none text-white font-bold text-xl">Register
+                    Now!</button>
+            </div>
+            <div class=" rounded-3xl bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(./Images/3.png)] bg-no-repeat bg-cover">
+                <h3 class="text-2xl font-extrabold mb-6 text-white">Teenager Program</h3>
+                <p class="text-xs md:text-base  font-medium max-w-[490px] mb-6 text-white">Dolor sit amet consectetur. Ut urna
+                    diam quis
+                    sagittis.
+                    Elit elit
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                    congue sed et in.</p>
+                <button class="btn bg-pri-color border-none text-white font-bold text-xl">Register
+                    Now!</button>
+            </div>
+        </div>
+    </footer> -->
 </body>
 
 </html>
